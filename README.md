@@ -19,13 +19,13 @@
 * Then follow the following code :
 
 ```bash
-$   mkdir Data_Structure
+$   mkdir C_Programming_Language
 
 $   cd C_Programming_Language/
 
 $   git clone https://github.com/Maverick7274/C-Programming-Language.git
 
-$   cd Data-Structures-in-C
+$   cd C_Programming_Language/
 
 ```
 * To get a list of the files
@@ -104,65 +104,46 @@ $   git push --set-upstream origin <branch name>
 $   git pull
 ```
 
+---
 
-# Things Git will Ignore
+# About C Language
 
-```bash
-# MacOS
-.DS_Store
+The C Language is developed by Dennis Ritchie for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc.
 
+C programming is considered as the base for other programming languages, that is why it is known as mother language.
 
-# Prerequisites
-*.d
+It is considered as the mother language of all the modern programming languages because most of the compilers, JVMs, Kernels, etc. are written in C language, and most of the programming languages follow C syntax, for example, C++, Java, C#, etc.
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+It provides the core concepts like the array, strings, functions, file handling, etc. that are being used in many languages like C++, Java, C#, etc.
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Some Common Terms which are often used for the C Programming Language 
 
-# Precompiled Headers
-*.gch
-*.pch
+## System Programming Language
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+A system programming language is used to create system software. C language is a system programming language because it can be used to do low-level programming (for example driver and kernel). It is generally used to create hardware devices, OS, drivers, kernels, etc. For example, Linux kernel is written in C.
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+It can't be used for internet programming like Java, .Net, PHP, etc.
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+## Structured Programming Language
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+A structured programming language is a subset of the procedural language. Structure means to break a program into parts or blocks so that it may be easy to understand.
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+In the C language, we break the program into parts using functions. It makes the program easier to understand and modify.
 
-```
+## Language Levels
+
+C is considered as a *middle-level language* because it supports the feature of both *low-level* and *high-level languages*. C language program is converted into assembly code, it supports pointer arithmetic (low-level), but it is machine independent (a feature of high-level).
+
+A *Low-level language* is specific to one machine, i.e., machine dependent. It is machine dependent, fast to run. But it is not easy to understand.
+
+A *High-Level language* is not specific to one machine, i.e., machine independent. It is easy to understand.
+
+# History of C
+
+C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.
+
+Dennis Ritchie is known as the founder of the c language.
+
+It was developed to overcome the problems of previous languages such as B, BCPL, etc.
+
+Initially, C language was developed to be used in UNIX operating system. It inherits many features of previous languages such as B and BCPL.

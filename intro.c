@@ -1,4 +1,5 @@
 // #include is used to import header files and many other things
+// The Hash or Shebang Command( # ) is known as a Preprocessor
 // The stdio.h is a Header File
 #include <stdio.h>
 
