@@ -1,7 +1,7 @@
 #! /bin/bash
 # This is a small script which can be used to compile 
 
-read -p "Write the name of the File you want to compile in GCC : " input
+read -p "Write the name of the File you want to compile in GCC : " filename
 
 
-gcc $input.c -o ./output/$input.out
+gcc $filename.c -o ./output/$filename.out
