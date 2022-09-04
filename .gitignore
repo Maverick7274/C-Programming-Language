@@ -54,3 +54,4 @@ dkms.conf
 # Repo Specific Folders
 output
 gitcommands.sh
+*.sh-e
