@@ -1,4 +1,7 @@
 # C Programming Language
+
+> NOTE : If you wish to learn about C Programming Language you can skip the "About this Repository" heading from the filter drop-down located near the `README.md` title.
+
 ---
 # About this Repository
 
